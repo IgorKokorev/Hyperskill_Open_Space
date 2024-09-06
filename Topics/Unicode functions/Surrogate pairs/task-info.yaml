@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+    -   text: Identifying code points within the BMP
+    -   text: Converting characters to binary form
+    -   text: Representing characters that require more than 16 bits
+    -   text: Working with Unicode characters in JavaScript
+    -   text: Representing characters that require more than 8 bits
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31441#comment
+status: Solved
+record: -1
+local_check: false

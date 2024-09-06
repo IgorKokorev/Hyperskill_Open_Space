@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+    -   text: 1
+    -   text: 0.156
+    -   text: 0.015625
+    -   text: 0.00156
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16635#comment
+status: Solved
+record: -1
+local_check: false

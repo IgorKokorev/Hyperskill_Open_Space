@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+    -   text: <code>SyntaxError</code>
+    -   text: <code>0</code>
+    -   text: <code>TypeError</code>
+    -   text: "<code>[ ]</code>"
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16634#comment
+status: Solved
+record: -1
+local_check: false

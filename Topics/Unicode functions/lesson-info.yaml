@@ -1,0 +1,11 @@
+content:
+    - Theory
+    - charCodeAt()
+    - Surrogate pairs
+    - Unicode address of a character
+    - String.fromCodePoint() vs String.fromCharCode()
+    - What's the secret message
+    - Code unit value in UTF-16
+    - Hello summer
+    - Are they close neighbors
+    - Surrogate pair check

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="space">
+    <div class="planet-area">
+        <img class="planet" src="https://stepik.org/media/attachments/lesson/452681/mars.png" alt="Mars">
+        <img id="rocket" class="rocket" src="https://stepik.org/media/attachments/lesson/452681/rocket.png" alt="Rocket">
+    </div>
+    <div class="control-panel">
+        <div class="control-panel__inner">
+            <input id="input-text" type="password" placeholder="Password"/>
+            <input id="input-text-button" class="my-button" type="button" value="Ok"/>
+            <div class="check-buttons">
+                <input class="check-button" id="check1" type="checkbox" onchange="checkControls()">
+                <input class="check-button" id="check2" type="checkbox" onchange="checkControls()">
+                <input class="check-button" id="check3" type="checkbox" onchange="checkControls()">
+                <input class="check-button" id="check4" type="checkbox" onchange="checkControls()">
+                <input class="check-button" id="check5" type="checkbox" onchange="checkControls()">
+                <input class="check-button" id="check6" type="checkbox" onchange="checkControls()">
+            </div>
+            <div class="levers">
+                <input class="lever" min="0" max="100" id="lever1" type="range" onchange="checkControls()">
+                <input class="lever" min="0" max="100" id="lever2" type="range" onchange="checkControls()">
+                <input class="lever" min="0" max="100" id="lever3" type="range" onchange="checkControls()">
+                <input class="lever" min="0" max="100" id="lever4" type="range" onchange="checkControls()">
+                <input class="lever" min="0" max="100" id="lever5" type="range" onchange="checkControls()">
+            </div>
+            <input type="button" id="launch-button" class="my-button" value="Launch"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

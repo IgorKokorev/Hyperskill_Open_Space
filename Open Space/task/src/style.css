@@ -1,0 +1,147 @@
+body {
+    background-color:black;
+    background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.space {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    background-image: url("space.png");
+}
+
+.planet-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    height: 80%;
+}
+
+.planet {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.rocket {
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    rotate: 30deg;
+    bottom: 20%;
+    left: 45%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.control-panel {
+    position: absolute;
+    top:500px;
+    right: 5%;
+    width: 40%;
+    height: 60%;
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.control-panel__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 1rem;
+    background: lightsteelblue;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+input, button {
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+}
+
+#input-text-container {
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#input-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10px;
+    min-width: 10px;
+    border: 1px solid darkblue;
+    color: red;
+}
+
+#input-text-button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 10px;
+}
+
+.my-button {
+    background: cornflowerblue;
+}
+
+.check-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.levers {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lever {
+    writing-mode: vertical-rl;
+    width: 0.1rem;
+    height: 3rem;
+    flex-shrink: 1;
+}
+
+#launch-button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 3rem / 1rem;
+}

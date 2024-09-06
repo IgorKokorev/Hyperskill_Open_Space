@@ -1,0 +1,34 @@
+type: edu
+custom_name: 3… 2… 1… Liftoff!
+files:
+    -   name: src/index.html
+        visible: true
+        learner_created: false
+    -   name: hstest/test.js
+        visible: false
+        learner_created: false
+    -   name: src/main.js
+        visible: true
+        learner_created: true
+    -   name: src/style.css
+        visible: true
+        learner_created: true
+    -   name: src/rocket.png
+        visible: true
+        is_binary: true
+        learner_created: true
+    -   name: src/mars.png
+        visible: true
+        is_binary: true
+        learner_created: true
+    -   name: src/space.png
+        visible: true
+        is_binary: true
+        learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11737#comment
+status: Solved
+feedback:
+    message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+        to continue learning.
+    time: "Fri, 06 Sep 2024 12:14:10 UTC"
+record: -1
